@@ -1,0 +1,29 @@
+div.portfolio_gallery {
+}
+
+div.portfolio_gallery ul {
+  list-style-type: none;
+}
+ 
+div.portfolio_gallery li {
+  float: left;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  width: 200px;
+  height: 260px;
+}
+
+div.portfolio_gallery li img {
+	width: 150px;
+	height: 150px;
+}
+
+div.portfolio_gallery li a {
+  text-decoration:  none;	
+}
+
+div.portfolio_gallery li:hover {
+	border: 3px solid #75cdd2;
+	border-radius: 8px;
+}
